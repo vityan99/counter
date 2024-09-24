@@ -1,0 +1,40 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px 12px rgba(34, 60, 80, 0.2);
+}
+
+.counter__title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.counter__value {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.counter__controls {
+  display: flex;
+  gap: 5px;
+}
+
+.counter--animate {
+  animation: scaleAnim 0.5s ease-in-out;
+}
+
+@keyframes scaleAnim {
+  from {
+    transform: scale(0.85);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(0.85);
+  }
+}
