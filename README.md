@@ -10,7 +10,7 @@
 
 ## Preview
 
-![Counter preview](https://github.com/vityan99/custom-components/blob/main/preview.png)
+![Counter preview](https://github.com/vityan99/counter/blob/main/preview.png)
 
 ## Содержание
 
